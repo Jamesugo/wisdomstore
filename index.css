@@ -1,0 +1,1372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(66,57,56)
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding-right: 0px;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 10px; 
+    flex-basis: 20%;
+
+} 
+header h1{
+    color: white;
+    /*padding-right: 25rem;*/
+}
+.top{
+    width: 100px;
+    height: 100px;
+    flex-basis: 20%;
+}
+.dropdown {
+  float: left;
+  /*overflow: hidden;*/
+  position: relative;
+  bottom: 15px;
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(66,57,56);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  /*position: relative;
+  bottom: 15px;
+*/  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  position: absolute;
+  top: 25px;
+  /*background: #fff;*/
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+/*nav*/
+
+nav .box3 a{
+    height: 20px;
+    width: 50px;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding:12px;
+    list-style-type: none;
+
+
+}
+
+nav h3{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*SECTIONS*/
+.joe{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(227,228,250);
+    border-radius: 20px 20px;
+    margin-top: 20px;
+}
+section div{
+    display: inline-block;
+    margin:10px 20px;
+    height: 300px;
+    width: 200px;
+
+}
+section div p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+section{
+    margin-top: 50px;
+}
+section div a{
+    margin: auto
+}
+section nav h3{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(227,228,250);
+    width: 100%;
+    height: 50px;
+}
+.jam,.fav nav{
+ margin-top: 30px;
+}
+.fav,.jam{
+    background-color: rgb(227,228,250);
+    border-radius: 20px 20px;
+}
+section div:hover{
+    box-shadow: 1px 1px 1px 1px ;
+    border-radius: 5px 5px;
+}
+.jam div,.fav div{
+  width: 200px;
+  height: 300px;
+}
+.jam img,.fav img{
+    width: 200px;
+    height: 200px;
+}
+ div .img{
+    height: 200px;
+    width: 200px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 150px;
+    border: solid white 0.5px;
+}
+ /*payment*/
+.container {
+  display: flex;
+  align-items: center; 
+  padding: 12px;
+  /*border: solid;*/
+}
+
+.image {
+  width: 400px; 
+  height: auto; 
+}
+
+.text {
+  margin-left: 20px; 
+}
+.container .btn{
+     text-decoration: none;
+    width: 100px;
+    background-color: #ffa62f;
+    padding: 8px 100px;
+    border-radius: 20px;
+}
+.container p{
+    padding-top: 10px;
+}
+.container a i{
+    color: black;
+    padding-left: 20px;
+}
+section a i{
+    color: black;
+}
+
+.container .price{
+    font-size: 30px;
+}
+.container #pt{
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+}
+.btn{
+      text-decoration: none;
+    width: 50px;
+    background-color: #ffa62f;
+    padding: 8px 50px;
+    border-radius: 20px;
+}
+
+
+}
+.big{
+    text-decoration: none;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.jet{
+    text-decoration: none;
+}
+.jet p{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#doc{
+    margin-top: 100px;
+}
+
+/*phone*/
+.phones div img{
+  width: 200px;
+  height: 200px;
+}
+/*buy*/
+.atm{
+    display: flex;
+    height: 50%;
+    flex-basis: 20%;
+    background-color: rgb(227,228,250);
+}
+.count{
+    padding-left: 20px;
+    display: grid;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.count p{
+    padding-bottom: 40px;
+    font-size: 40px;
+
+}
+.count form label{
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+.count input,textarea{
+    width: 95%;
+    padding: 5px 20px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+.count .btn{
+    margin-top: 40px;
+    padding-left: 20px;
+} 
+.calm{
+    padding-left: 20px;
+    display: grid;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    /*border-left: solid 10px white;*/
+}
+.calm p{
+    padding-bottom: 40px;
+    font-size: 40px;
+
+
+}
+.calm form{
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.calm input{
+    width: 95%;
+    padding: 5px 20px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+.calm .btn{
+    margin-top: 40px;
+    padding-left: 20px;
+
+} 
+/*sign up*/
+.sign{
+    background-color: #ffa62f;
+}
+.font{
+    padding-left: 20px;
+    display: grid;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    
+}
+.sing p{
+    padding-bottom: 40px;
+    font-size: 40px;
+    margin: auto;
+
+}
+.sing{
+    /*background-color: white;*/
+    padding-left: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.font form label,input{
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    padding: 5px 20px;
+
+}
+.font input,textarea{
+    width: 95%;
+    padding: 10px 15px;
+    font-weight: bold;
+    border:solid 1px;
+    border-radius: 5px;
+}
+.font .btn{
+    margin-top: 10px;
+    margin-left: 120px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    width: 50%
+} 
+.sing .alpha{
+    font-size: 20px;
+    text-align: center;
+}
+.alpha a{
+    color: blue;
+}
+
+/*search*/
+
+.search{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    /*padding-left: 100px;*/
+
+}
+.flex{
+    display: flex;
+}
+.search .into{
+    /*width: 20rem;*/
+    height: 40px;
+    border-radius: 10px;
+    /*position: absolute;
+    left: 400px;*/
+}
+.search .btn{
+    width: 30px;
+    height: 40px;/*
+    position: absolute;
+    right: 400px;*/
+    border-radius: 10px;
+}
+
+/*laptop*/
+/*.laptop{
+    margin-top: 100px;
+}*/
+ 
+.laptop div img{
+   width: 200px;
+   height: 200px;
+
+}
+
+.laptop div{
+    height: 310px;
+}
+/*fashion*/
+#cloths div img{
+   width: 200px;
+   height: 200px;
+}
+/*electronics*/
+.elet div img{
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+/*about*/
+section #text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.about{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: grid;
+    justify-content: center;
+}
+.team article{
+    display: inline-block;
+    padding-left: 90px;
+}
+.team img{
+    width: 200px;
+    height: 300px;
+    padding-top: 20px;
+}
+.team p{
+    text-align: center;
+}
+.team .name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.team #text{
+    padding-top: 50px;
+}
+.us p{
+   width: 500px;
+   margin: auto;
+   font-size: 18px;
+   font-weight: bold;
+}
+.services article{
+    display: inline-block;
+    padding-left: 20rem;
+    width: 500px;
+    height: 200px;
+}
+.service p{
+    text-align: center;
+}
+.services .made{
+    font-size: 18px;
+    font-weight: bold;
+}
+.services img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.services #text{
+    padding-top: 50px;
+}
+/*contact*/
+.ats{
+    display: flex;
+    height: 50%;
+    flex-basis: 20%;
+}
+.contact{
+    padding-left: 20px;
+    display: grid;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(227,228,250);
+}
+.contain{
+     padding-left: 20px;
+    display: grid;
+    width: 50%;
+    padding-top: 40px;
+    /*padding-bottom: 60px;*/
+}
+.contain .add{
+     padding-bottom: 40px;
+    font-size: 40px;
+}
+.contact p{
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+.contain span{
+    font-family: times new roman;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+
+    /*padding: 8px 20px;*/
+}
+.contact form{
+ flex-basis: 55%;
+}
+form .btn{
+    padding: 5px 70px;
+}
+.contact form label{
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+.contact input,textarea{
+    width: 95%;
+    padding: 5px 20px;
+    /*background-color: lightgreen;*/
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+.contact .btn{
+    margin-top: 40px;
+    padding-left: 20px;
+} 
+
+/*footer*/
+footer{
+    /*height: 200px;*/
+    width: 100%;
+    background-color: rgb(66,57,56);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+ footer article a{
+    display: flex;
+    color: black;
+    font-size: 20px;
+ }
+ footer article p{
+    font-size: 30px;
+    color: blue;
+ }
+ footer a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.6rem;
+ }
+ footer h1{
+    font-size: 1.6rem;
+ }
+ footer .top{
+    width: 200px;
+ }
+ .social-media{
+    display: flex;
+    grid-gap: 20px;
+    flex-basis: 20%;
+ }
+ footer .social-media{
+    justify-content: center;
+ }
+ .social-media .fab{
+    font-size: 1.9rem
+    color:blue;
+ }
+
+ /*------------mediaquery-------------*/
+@media screen and (max-width: 800px){
+    nav .box3 a{
+       margin-left: 100px;
+    }
+    footer a{
+         font-size: 1rem
+    }
+    footer span{
+        padding-right: 10px;
+    }
+    .jam img{
+        width: 200px;
+        height: auto;
+    }
+    .fav img{
+        width: 200px;
+        height: auto;
+    }
+    .container .btn{
+        padding: 8px 30px;
+    }
+    header i{
+      padding-right: 58px;
+      padding-top: 20px;
+    }
+/*    .search .into{
+    width: 17rem;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    right: 600px;
+}
+.search .btn{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left: 500px;
+    border-radius: 10px;
+}*/
+.dropdown {
+  /*float: left;
+  overflow: hidden;*/
+  position: relative;
+  /*bottom: 15px;*/
+  left: 100px;
+
+}
+    
+}
+
+@media screen and (max-width: 744px){
+    .joe div,.jam div,.fav div{
+        width: 180px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 180px;
+    }
+    .phones div,#cloths div,.laptop div,.elet div{
+        width: 190px;
+        padding:3px 5px;
+
+    }
+    .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 170px;
+
+    }
+}
+@media screen and (max-width: 714px){
+     .phones div,#cloths div,.laptop div,.elet div{
+        width: 185px;
+        padding:3px 1px;
+
+    }
+    .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 184px;
+
+    }
+    .font{
+        margin: auto;
+    }
+    .font .btn{
+    margin-top: 10px;
+    margin-left: 120px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    width: 30%
+}
+
+@media screen and (max-width: 728px){
+    .container .btn{
+        width: 50px;
+        padding: 4px 20px;
+    }
+
+}
+@media screen and (max-width: 699px){
+   .phones div,#cloths div,.laptop div,.elet div{
+        width: 180px;
+        padding:3px 1px;
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 178px;
+
+    }
+}
+@media screen and (max-width: 698px){
+    nav .box3 a{
+        width: 30px;
+     margin-left: 200px;
+     padding: 5px;
+    }
+    header ul{
+        column-gap: 5px;
+    }
+    .top{
+        width: 120px;
+    }
+    header h1{
+        font-size: 30px;
+    } 
+
+}
+
+@media screen and (max-width: 684px){
+    .joe div,.jam div,.fav div{
+        width: 170px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 170px;
+    }
+ /*   .search{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+    .search .into{
+    width: 15rem;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    right: 600px;
+}
+.search .btn{
+    height: 40px;
+    position: absolute;
+    left: 465px;
+    border-radius: 10px;
+}*/
+    .btn{    width: 20px;
+
+        width: 30px;
+        padding: 8px 30px;
+    }
+     .phones div,#cloths div,.laptop div,.elet div{
+        width: 175px;
+        padding:3px 1px;
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 168px;
+
+    }
+}
+@media screen and (max-width: 669px){
+    .phones div,#cloths div,.laptop div,.elet div{
+        width: 170px;
+        padding:3px 1px;
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 168px;
+
+    }
+}
+
+@media screen and (max-width: 659px){
+    .social-media{
+        grid-gap: 15px;
+        flex-direction: column;
+    }
+    footer article p,footer span{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 654px){
+     .joe div,.jam div,.fav div{
+        width: 165px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 165px;
+    }
+    .btn{
+        width: 30px;
+        padding: 8px 30px;
+    }
+    header h1{
+        font-size: 30px;
+    }
+    .jam div{
+        height: 305px;
+    }
+    .jam img{
+        height: 200px;
+    }
+    .fav div{
+        height: 295px;
+
+    }
+    .fav img{
+        height: 200px;
+    }
+     .phones div,#cloths div,.laptop div,.elet div{
+        width: 165px;
+        padding:3px 1px;
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 160px;
+
+    }
+}
+@media screen and (max-width: 639px){
+     .joe div,.jam div,.fav div{
+        width: 160px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 155px;
+    }
+    .phones div,#cloths div,.laptop div,.elet div{
+        width: 160px;
+        padding:3px 1px;
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 155px;
+    }
+
+    header h1{
+        font-size: 20px;
+    }
+    .top{
+        width: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 624px){
+    .phones div,#cloths div,.laptop div,.elet div{
+        width: 155px;
+        padding:3px 1px;
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 150px;
+    }
+     .joe div,.jam div,.fav div{
+        width: 155px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 150px;
+    }
+     .container .btn{
+        width: 40px;
+        padding: 10px 30px;
+        /*margin-right: 10px;*/
+    }
+    nav .box3 a{
+           width: 20px;
+     margin-left: 180px;
+     padding: 3px;
+    }
+
+}
+@media screen and (max-width: 609px){
+     .joe div,.jam div,.fav div{
+        width: 150px;
+        height: 240px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 145px;
+        height: 150px;
+    }
+     .phones div,#cloths div,.laptop div,.elet div{
+        width: 150px;
+        padding:3px 1px;
+        height: 240px
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 145px;
+        height: 150px;
+    }
+    .btn{
+        width: 30px;
+        padding: 8px 25px;
+    }
+
+    
+}
+@media screen and (max-width: 594px){
+      .joe div,.jam div,.fav div{
+        width: 145px;
+        height: 240px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 140px;
+        height: 150px;
+    }
+     .phones div,#cloths div,.laptop div,.elet div{
+        width: 145px;
+        padding:3px 1px;
+        height: 240px
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 140px;
+        height: 150px;
+    }
+
+}
+@media screen and (max-width: 579px){
+      .joe div,.jam div,.fav div{
+        width: 140px;
+        height: 235px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 135px;
+        height: 145px;
+    }
+     .phones div,#cloths div,.laptop div,.elet div{
+        width: 140px;
+        padding:3px 1px;
+        height: 235px
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 135px;
+        height: 145px;
+    }
+    .jam div{
+        width: 140px;
+        height: 250px
+    }
+     footer article p,footer span,footer h1{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .btn{
+        width: 30px;
+        padding: 8px 20px;
+    }
+}
+@media screen and (max-width: 565px){
+     .joe div,.jam div,.fav div{
+        width: 135px;
+        height: 230px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 120px;
+        height: 140px;
+    }
+     .phones div,#cloths div,.laptop div,.elet div{
+        width: 135px;
+        padding:1px 2px;
+        height: 230px
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 120px;
+        height: 140px;
+    }
+    .jam div{
+        width: 135px;
+        height: 230px
+    }
+     .btn{
+        width: 20px;
+        padding: 4px 20px;
+    }
+    nav .box3 a{
+           width: 10px;
+     margin-left: 170px;
+     padding: 1.5px;
+    }
+    .image{
+        width: 300px;
+    }
+     .container .btn{
+        width: 40px;
+        padding: 10px 20px;
+    }
+    .ats{
+        display: grid;
+        width: fit-content
+    }
+    .contact{
+        width: 100%
+    }
+    .contain a{
+        padding-bottom: 50px;
+    }
+    .face{
+        padding-bottom: 50px;
+    }
+    .pho{
+        padding-bottom: 20px;
+    }
+    nav .box3 a{
+        display: grid;
+        padding-left: 80px;
+    }
+    
+
+}
+@media screen and (max-width: 550px){
+      .joe div,.jam div,.fav div{
+        width: 125px;
+        height: 230px;
+    }
+    .joe img,.jam img,.fav img{
+        width: 120px;
+        height: 140px;
+    }
+     .phones div,#cloths div,.laptop div,.elet div{
+        width: 125px;
+        padding:1px 2px;
+        height: 230px
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 120px;
+        height: 140px;
+    }
+    .jam div{
+        width: 130px;
+        height: 230px
+    }
+     .btn{
+        width: 20px;
+        padding: 4px 20px;
+    }
+    nav .box3 a{
+           width: 10px;
+     margin-left: 170px;
+     padding: 1.5px;
+    }
+     .bold section{
+            display: grid;
+        }
+        .team article{
+            padding-left: 120px;
+            display: grid;
+
+        }
+        .team p{
+            
+
+        }
+}
+  @media screen and (max-width: 500px){
+          .container{
+           display: grid;
+        }
+        .phones div,#cloths div,.laptop div,.elet div{
+        width: 130px;
+        padding:1px 0.5px;
+        height: 255px
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 110px;
+        height: 125px;
+    }
+    }
+@media screen and (max-width: 517px){
+    
+    footer p{
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .font{
+    padding-left: 20px;
+    display: grid;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 50px; 
+    
+}
+.dropdown {
+  /*float: left;
+  overflow: hidden;*/
+  position: relative;
+  /*bottom: 15px;*/
+  left: 30px;
+     }
+
+@media screen and (max-width: 516px){
+    .services article{
+        display: grid;
+        padding: 5rem;
+    }
+    .us article p{
+        width: 200px;
+    }
+    .atm{
+        display: grid;
+
+    }
+    .count{
+    padding-left: 20px;
+    display: grid;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.count p{
+    padding-bottom: 40px;
+    font-size: 40px;
+
+}
+.count form label{
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+.count input,textarea{
+    width: 95%;
+    padding: 5px 20px;
+    font-weight: bold;
+    border:solid 2px;
+    border-radius: 5px;
+}
+.count .btn{
+    margin-top: 40px;
+    padding-left: 20px;
+} 
+.calm{
+    /*padding-left: 20px;*/
+    display: grid;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 30px;
+    /*border-top: solid 10px white;*/
+}
+
+.calm p{
+    padding-bottom: 40px;
+    font-size: 40px;
+
+
+}
+.calm form{
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.calm p{
+    padding-bottom: 40px;
+    font-size: 30px;
+
+
+}
+.calm input{
+    width: 100%;
+    padding: 5px 10px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+.calm .btn{
+    margin-top: 40px;
+    padding-left: 20px;
+
+} 
+.calm input,textarea{
+    width: 80%;
+    padding: 5px 10px;
+    font-weight: bold;
+    border:solid 2px;
+    border-radius: 5px;
+}
+
+
+}
+@media screen and (max-width: 484px){
+    nav .box3 a{
+        display: grid;
+        padding-bottom: 5px;
+        justify-content: center;
+    }
+}
+ @media screen and (max-width: 480px){
+        nav .box3 a{
+            width: 5px;
+            padding-right: 100px;
+        }
+        section div{
+            width: 200px;
+        }
+    }
+     
+
+    @media screen and (max-width: 360px){
+        .container{
+           display: grid;
+           height: 50%;
+           width: 100%;
+        }
+        .container .btn{
+            width: 200px;
+            padding-right: 20px;
+        }
+        .bold section{
+            display: grid;
+            width: 100%;
+        }
+        .us article{
+            padding:0px 70px;
+            
+        }
+        .services{
+            height: 20%;
+            display: grid;
+            padding-bottom: 50px;
+        }
+        .service p{
+            padding-bottom: 30px;
+        }
+        
+        
+       
+    .jam div{
+        width: 125px;
+        height: 240px
+    }
+    .us p{
+   width: 300px;
+   margin: auto;
+}
+.services article{
+    display: inline-block;
+    padding-left: 8rem;
+    width: 300px;
+    height: 300px;
+}
+.team article{
+    display: grid;
+    padding-left: 70px;
+}
+.team p{
+    padding-right: 70px;
+}
+ .phones div,#cloths div,.laptop div,.elet div{
+        width: 120px;
+        padding:1px 0.5px;
+        height: 255px
+   }
+   .phones div img,#cloths div img,.laptop div img,.elet div img{
+        width: 110px;
+        height: 125px;
+    }
+    footer{
+        margin-top: 20px;
+    }
+    nav .box3 a{
+        padding-right: 100px;
+    }
+    .btn{
+        width: 30px;
+        padding: 8px 10px;
+    }
+    .search{
+    display: flex;
+    height: 5rem;
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 2px;
+
+}
+.search .into{
+    width: 12rem;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 1px;
+}
+.search .btn{
+    width: 2px;
+    height: 40px;
+    position: absolute;
+    left: 198px;
+    border-radius: 10px;
+}
+
+.font{
+    margin-right: 50px; 
+}
+     
+}
+
+/*handburger*/
+@media screen and (max-width: 900px){
+ header ul{
+    display: grid;
+    text-align: center;
+    height: 50vh;
+    width: 50%;
+    background-color: #4e387e;
+    position: fixed;
+    top: -105vh;
+    right: 0px;
+    align-items: center;
+    transition: 0.8s;
+ }
+ header .menu-icon{
+    width: 32px;
+    height: 32px;
+    outline: 2px solid black;
+    border-radius: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   }
+   header .menu-icon::before{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    outline: 2px solid black;
+    border-radius: 50%;
+    animation: blink 2s infinite;
+    content: "";
+   }
+   header nav:hover ul{
+    top: 0;
+    z-index: 3;
+
+   }
+  
+ header .hamburger{
+    position: relative;
+    width: 24px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+ }
+ header .hamburger::before{
+    position: absolute;
+    top: -6px;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: inherit;
+ }
+ header .hamburger::after{
+    position: absolute;
+    top: 6px;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: inherit;
+}
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
